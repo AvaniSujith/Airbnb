@@ -326,7 +326,7 @@ font-family: 'font';
  }
  .item1{
   /* border: 2px solid transparent; */
-  border-bottom: 2px solid #222222;
+  border-bottom: 3px solid #222222;
   /* margin-bottom: -3px; */
   /* outline: 3px solid #222222; */
   /* padding-top: 6px; */
@@ -370,7 +370,7 @@ font-family: 'font';
   padding-left: 7px;
  } */
   .scroll div:nth-child(n+3) {
-    padding-left: 15px;
+    padding-left: 14px;
   }
  .scroll img{
   height: 24px;
@@ -428,7 +428,7 @@ nav{
   } */
    main{
     padding: 0px 24px;
-    margin: 24px 0px 32px;
+    margin: 23.5px 0px 32px;
   /* margin-top: -1px; */
    }
 
@@ -1319,27 +1319,57 @@ p{
   }
   
   @media screen and (min-width:550px) {
-    .search-box{
+    /* .search-box{
       padding: 7px 9px 7px 9px;
     }
-    
+     */
     .other-content{
       /* padding-left: 18px; */
-      padding-left: 10px;
+      padding-left: 16px;
       margin-top: 0;
+      box-sizing: border-box;
+      overflow: hidden;
+      max-width: 100%;
+      display: inline-block;
+      /* padding-inline-end: 24px; */
+    }
+    .first{
+      line-height: 1.25rem;
+      font-size:0.875rem;
+      font-weight: 500;
+      letter-spacing: normal;
+      display: block;
+      overflow: hidden;
+      white-space: nowrap;
+      text-overflow: ellipsis;
+      unicode-bidi: isolate;
     }
     .second{
-      line-height: 1.2rem;
+      line-height: 1rem;
       font-size:0.75rem;
+      padding-inline-end: 24px;
+      display: flex;
+      gap: 5px;
+      letter-spacing: normal;
+      box-sizing: border-box;
+      unicode-bidi: isolate;
+    }
+    /* .second span{
+
+    } */
+    .scroll div:nth-child(n+3){
+     padding-left: 6px;
     }
     .item4{
       margin-left: 0px;
+      padding-left: 2px;
     }
+
     .item2{
       margin-left: 0px;
     }
     .item12{
-      padding-left:0px;
+      padding-left:7px !important;
     }
     .scroll{
       /* gap:16px; */
