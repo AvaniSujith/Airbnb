@@ -2009,18 +2009,23 @@ p{
     .profile-start{
       gap: 19px;
     }
-    .search-bar{
+   
+    /* .search-bar{
       padding: 8px 0px;
-    
-    }       
+      padding-left: 40px;
+      padding-right: 40px;
+    }   */
     .header-end{
       /* border-bottom: 1px solid #FFF8F6; */
       box-shadow: rgb(0 0 0 / 8%) 0 1px 0;
       padding-bottom: 22px;
+      padding-left: 40px;
+      padding-right: 40px;
     }
     .big-tablet{
       display: block;
     }
+    
     .picture, .picture2{
       display:grid;
       /* grid-template-columns: repeat(3,1fr); */
@@ -2057,6 +2062,11 @@ p{
       grid-template-columns: repeat(3,minmax(0,1fr));
       column-gap: 8px;
      }
+     .list{
+      padding-left: 40px;
+      padding-right: 40px;
+      padding-top: 32px;
+     }
      /* footer{
       padding: 48px 40px 0px 40px;
      } */
@@ -2089,6 +2099,7 @@ p{
       padding-right: 40px;
 
     }
+    
     .search-btn{
       margin-left: 10px;
       margin-right: 0px;
