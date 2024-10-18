@@ -2027,13 +2027,14 @@ p{
     }   */
     .header-end{
       /* border-bottom: 1px solid #FFF8F6; */
-      box-shadow: rgb(0 0 0 / 8%) 0 1px 0;
+      /* box-shadow: rgb(0 0 0 / 8%) 0 1px 0; */
       padding-bottom: 22px;
       padding-left: 40px;
       padding-right: 40px;
     }
     .big-tablet{
       display: block;
+      box-shadow: rgb(0 0 0 / 8%) 0 1px 0;
     }
     
     .picture, .picture2{
