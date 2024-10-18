@@ -2001,15 +2001,25 @@ p{
     .header-top{
       justify-content: normal;
       margin-bottom: 0px;
+      display: flex;
+      flex: 1 0 140px;
     }
     .header-middle{
-      padding-left: 322px;
+      padding-left: 352px;
       padding-right: 92px;
     }
     .profile-start{
       gap: 19px;
     }
-   
+    .top-header{
+      display: flex;
+    }
+    /* .search-bar{
+      padding-bottom: 18px;
+        } */
+    /* .header-top{
+      display: flex;
+    } */
     /* .search-bar{
       padding: 8px 0px;
       padding-left: 40px;
