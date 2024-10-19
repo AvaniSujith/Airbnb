@@ -2245,6 +2245,29 @@ p{
       margin: 0px 215px;
     }
   } */
+   @media  screen and (min-width:1440px) {
+    .header-end{
+      margin-left: 215px;
+      margin-right: 215px;
+    }
+    .desktop-header{
+      padding: 0 80px;
+
+    }
+    .one{
+      padding: 0 80px;
+    }
+    main{
+      padding: 0 80px;
+    }
+    .list{
+      padding-left: 0px;
+      padding-right: 0px;
+    }
+    footer{
+      padding: 0 80px;
+    }
+   }
   @media screen and (min-width:1640px) {
     .picture, .picture2{
       display:grid;
@@ -2253,6 +2276,10 @@ p{
       justify-content: center;
       margin-top: 14px;
      }
+     /* .one{
+      margin-left: 215px;
+      margin-right: 215px;
+     } */
   }
   @media screen and (min-width:1880px) {
     .picture, .picture2{
