@@ -15,6 +15,7 @@ body{
  
  header{
   width:100%;
+
  }
  /* **************.mobile-header{
   display:flex;
@@ -706,7 +707,7 @@ p{
   justify-content: center;
   width: 36px;
   height: 50px;
-  right:12px;
+  right:2px;
   /* height:32px; */
   border: none;
   /* border: 0.5px solid rgb(0 0 0 / 0.3); */
@@ -759,7 +760,7 @@ p{
     text-align:center;
     width:fit-content;
     white-space: nowrap;
-    padding-top: 6px;
+    padding-top: 5px;
    }
 
    .scroll-menu > div p{
@@ -781,7 +782,7 @@ p{
     /* border-bottom: 2px solid #222222; */
    }
    .menu-item1{
-    border-bottom: 2px solid #222222;
+    border-bottom: 3px solid #222222;
     
     
     /* margin-bottom:6px ;
@@ -876,7 +877,7 @@ p{
   display: grid;
   /* grid-template-columns: repeat(2, 4fr); */
   grid-template-columns: repeat(2, minmax(0, 1fr));
-  row-gap: 24px;
+  row-gap: 25px;
   column-gap: 8px;
   list-style-type: none;
   white-space: wrap;
@@ -910,7 +911,7 @@ p{
   display: flex;
   align-items: center;
   padding-left: 3px;
-  padding-top: 1px;
+  /* padding-top: 1px; */
 }
 
 .grey{
@@ -922,8 +923,14 @@ p{
   font-weight: 420;
   letter-spacing: normal;
   line-height: 1.125rem;
+  margin-top: -1px;
 }
-
+.menu2 .list .list-item:nth-child(5){
+  margin-top: -1px;
+}
+.menu2 .list .list-item:nth-child(6){
+  margin-top: -1px;
+}
 .down{
   height: 12px;
 }
@@ -948,6 +955,9 @@ p{
 }
 .support h3{
   margin-top: 0px;
+}
+.menu3 .support-items li{
+  padding-top: 1px;
 }
 .hosting{
   border-bottom: 1px solid #DDDDDD;
@@ -1627,6 +1637,8 @@ p{
      color: #222222;
      font-family: 'font';
      /* width:88.82%; */
+     max-width: 850px;
+     margin: 0 auto;
      width:100%;
      text-align: left;
      outline: none;
@@ -2266,6 +2278,7 @@ p{
     }
     footer{
       padding: 0 80px;
+      padding-top: 40px;
     }
    }
   @media screen and (min-width:1640px) {
@@ -2289,4 +2302,29 @@ p{
       justify-content: center;
       margin-top: 14px;
      }
+     .privacy-list{
+      padding-bottom: 0px;
+
+     }
+     .copy{
+      margin-right: 12px;
+
+     }
+     /* .footer{
+      display: grid;
+      grid-template-columns: minmax(0, 1fr) minmax(0, 4fr) minmax(0, 1fr);
+     } */
+      /* .heading1{
+        max-width: 1542px;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+      } */
+       .separation-footer{
+        max-width:1542px;
+        align-items: center;
+        /* display: flex; */
+        margin: auto;
+       }
+       
   }
