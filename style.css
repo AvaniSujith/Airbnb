@@ -2236,6 +2236,8 @@ p{
       }
      .menu10 .list{
       grid-template-columns: repeat(6,minmax(0,1fr));
+      padding-left: 0px;
+      padding-right: 0px;
      }
      .menu3{
       padding-left: 0px;
@@ -2247,6 +2249,14 @@ p{
      footer{
       padding-left: 40px;
       padding-right: 40px;
+     }
+     .privacy-list{
+      padding-bottom: 0px;
+
+     }
+     .copy{
+      margin-right: 12px;
+
      }
   }
   /* @media screen and (min-width:1440px) {
@@ -2302,14 +2312,8 @@ p{
       justify-content: center;
       margin-top: 14px;
      }
-     .privacy-list{
-      padding-bottom: 0px;
-
-     }
-     .copy{
-      margin-right: 12px;
-
-     }
+     
+     
      /* .footer{
       display: grid;
       grid-template-columns: minmax(0, 1fr) minmax(0, 4fr) minmax(0, 1fr);
