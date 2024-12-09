@@ -335,7 +335,8 @@ font-family: 'font';
  }
  .item1{
   /* border: 2px solid transparent; */
-  border-bottom: 3px solid #222222;
+  /* border-bottom: 3px solid #222222; */
+  border-bottom: 2px solid #222222;
   /* margin-bottom: -3px; */
   /* outline: 3px solid #222222; */
   /* padding-top: 6px; */
@@ -1251,7 +1252,7 @@ p{
     margin: 0px auto;
     max-width: 560px;
     /* max-width: 33.3%; */
-    
+    z-index: 99;
     background-color:rgb(255, 255, 255);
     bottom: -60px;
     /* padding-bottom: 60px; */
@@ -1402,6 +1403,63 @@ p{
     }
     .other-content{
       padding-left: 16px;
+    }
+    .grey{
+      padding-top: 1px;
+    }
+    .scroll-menu{
+    
+      border-bottom: 1px solid #DDDDDD;
+    }
+
+    .menu2 .list .list-item:nth-child(n+3) {
+      margin-top: -1px;
+    }
+
+    .menu2 .list .list-item:nth-child(n+5){
+      margin-top: -2px;
+    }
+
+    .menu2 .list .list-item:nth-child(n+7){
+      margin-top: -1px;
+    }
+
+    .black-icon{
+      padding-bottom: 0px;
+      padding-left: 4px;
+    }
+
+    .support h3{
+      margin-bottom: 11.5px;
+    }
+
+    /* .menu3 .hosting-item li:nth-child(1), 
+    .menu3 .hosting-item li:nth-child(2),
+    .menu3 .hosting-item li:nth-child(3),
+    .menu3 .hosting-item li:nth-child(4){
+      
+      margin-bottom: 1px;
+    } */
+
+
+    .menu3 .hosting-item li:nth-child(1){
+      margin-top: -1px;
+    }
+
+    .menu3 .hosting-item li:nth-child(4){
+      padding-bottom: 1px;
+    }
+
+    .copy{
+      margin-bottom: 2px;
+    }
+
+    .menu6{
+      margin-bottom: 22px;
+    }
+
+    .privacy{
+      margin-bottom: .5px;
     }
   }
   @media screen and (min-width:408px){
@@ -1607,7 +1665,7 @@ p{
   .header-together{
     padding-left: 40px;
     padding-right: 40px;
-    padding-bottom: 30px;
+    padding-bottom: 31px;
   }
   .header-top{
     display:flex;
@@ -1746,7 +1804,8 @@ p{
      background-color: #FFFFFF;
      /* padding: 8.5px 0px; */
      border-radius: 32px;
-     height: 66px;
+     /* height: 66px; */
+     height: 67px;
      box-shadow: 0 3px 12px 0 rgba(0, 0, 0, 0.1), 0 1px 2px 0 rgba(0, 0, 0, 0.08);
      border: 1px solid #DDDDDD;
      color: #222222;
@@ -1777,6 +1836,7 @@ p{
     /* display: flex; */
     /* padding:0px 23px; */
     padding: 14px 24px;
+    padding-top: 13px;
     text-align: left;
     /* margin: 0px 23px; */
     /* padding-left: 0px; */
@@ -1855,6 +1915,7 @@ p{
     /* padding: 0px 23px; */
     /* padding-left: 0px; */
     padding: 14px 24px;
+    padding-top: 13px;
     text-align: left;
     white-space: nowrap;
     line-break: strict;
@@ -1915,9 +1976,9 @@ p{
      /* margin-bottom: 2px; */
       /* white-space: nowrap; */
     }
-    .where label{
+    /* .where label{
       padding-bottom: 0px;
-    }
+    } */
     .section-search input{
      /* padding: 0; */
      /* padding: 5px 0; */
@@ -1940,8 +2001,48 @@ p{
      overflow: hidden;
      text-align: left;
      white-space: nowrap;
+     padding-left: 0px;
+     
      /* color:#FF385C; */
     }
+
+
+    .where input{
+      
+      /* margin-top: -0.5px; */
+      padding-top: .75px;
+      padding-left: 2px;
+      /* padding-top: 1.5px; */
+      
+    }
+
+    .guest label{
+      padding-top: 2px;
+      padding-bottom: 1px;
+    }
+
+    .guest input{
+      margin-top: -0.5px;
+    }
+
+
+    .where{
+      margin-top: -.5px;
+    }
+
+    /* .guest{
+      margin-top: 1.5px;
+      padding: 13px ;
+    } */
+    /* .section-search input:nth-child(1){
+      padding-left: 2px;
+    } */
+
+    /* .section-search input:nth-child(n+2){
+      padding-left: 0px;
+    } */
+
+
     .search-btn{
      /* border-radius: 50%; */
      border-radius: 24px;
@@ -2132,10 +2233,23 @@ p{
   .menu8{
     display: none;
   }
+
+  .menu-item1 {
+    border-bottom: 2px solid #222222;
   }
-  @media screen and (min-width:949px) {
+
+  .heading1 h2 {
+    margin-bottom: 10px;
+  }
+
+  .scroll-arrow button{
+    right: 18px;
+  }
+
+  }
+  /* @media screen and (min-width:949px) {
     
-  }
+  } */
   @media screen and (min-width:950px) {
     .tablet{
       display: none;
