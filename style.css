@@ -335,8 +335,8 @@ font-family: 'font';
  }
  .item1{
   /* border: 2px solid transparent; */
-  /* border-bottom: 3px solid #222222; */
-  border-bottom: 2px solid #222222;
+  border-bottom: 3px solid #222222;
+  /* border-bottom: 2px solid #222222; */
   /* margin-bottom: -3px; */
   /* outline: 3px solid #222222; */
   /* padding-top: 6px; */
@@ -1467,7 +1467,7 @@ p{
       border-bottom: 1px solid #DDDDDD;
     }
     .menu-item1 {
-      border-bottom: 3px solid #222222;
+      border-bottom: 2px solid #222222;
     }
     .heading1 h2 {
       margin-bottom: 9px;
@@ -1844,6 +1844,7 @@ p{
     white-space: nowrap;
     line-break: strict;
     line-height: 20.02px;
+    flex-basis: 50%;
     width: 109.738px;
     text-size-adjust: 100%;
     align-items: center;
@@ -1920,6 +1921,7 @@ p{
     white-space: nowrap;
     line-break: strict;
     line-height: 20.02px;
+    flex-basis: 50%;
     width: 109.738px;
     text-size-adjust: 100%;
     /* flex-direction: column; */
@@ -2171,7 +2173,7 @@ p{
     padding-left:40px ;
     padding-right: 40px;
     padding-top: 32px;
-    padding-bottom: 48px;
+    padding-bottom: 47px;
     border-bottom: 1px solid #DDDDDD;
   }
  .heading1{
@@ -2235,21 +2237,71 @@ p{
   }
 
   .menu-item1 {
+    /* border-bottom: 3px solid #222222; */
     border-bottom: 2px solid #222222;
   }
 
+  .menu9 .list .list-item:nth-child(n+3){
+    margin-top: -1.5px;
+  }
+
+  .black-icon{
+    padding-left: 3px;
+  }
   .heading1 h2 {
     margin-bottom: 10px;
+    /* margin-bottom: 9px; */
   }
 
   .scroll-arrow button{
     right: 18px;
   }
 
-  }
-  /* @media screen and (min-width:949px) {
-    
+  /* .grey{
+    padding-top: 0px;
   } */
+
+  .air h3{
+    margin-bottom: 12px;
+  }
+  
+
+  .air-item li:nth-child(4) {
+    margin-top: 0px;
+  }
+
+  .menu6{
+    padding-top: 24px;
+    margin-bottom: 13px;
+  }
+
+  .non-social{
+    margin-right: 24px;
+    margin-left: 16px;
+    margin-top: -4px;
+  }
+
+  .non-social1{
+    margin-right: 0px;
+    padding-right: 0px;
+    margin-top: -4px;
+  }
+
+  .privacy-list{
+    margin-top: -1px;
+  }
+
+  .copy{
+    margin-bottom: 0px;
+  }
+  }
+
+  @media screen and (min-width:768px) {
+    .menu9{
+      padding-bottom: 47.5px;
+    }
+  }
+  
   @media screen and (min-width:950px) {
     .tablet{
       display: none;
@@ -2345,6 +2397,32 @@ p{
       padding: 48px 40px 0px 40px;
      } */
   }
+
+  @media screen and (min-width:1024px){
+    .search-bar{
+      max-height: 66px;
+    }
+
+    .check-in, .check-out, .guest{
+      margin-top: -1px;
+    }
+
+    .search-btn{
+      margin-right: 0px;
+      margin-left: 11px;
+    }
+    .one{
+      margin-top: 22px;
+    }
+    .airbnb-logo img{
+      height: 33px;
+      /* padding-top: 1px; */
+    }
+    .airbnb-logo{
+      padding-top: 1px;
+    }
+  }
+
   @media screen and (min-width:1128px) {
     .big-tablet{
       display: none;
@@ -2505,8 +2583,36 @@ p{
       padding: 0 80px;
 
     }
+    .search-btn{
+      margin-left: 11px;
+    }
+    .header-middle{
+      
+        padding-left: 322px;
+    }
+    .stay, .experience{
+      padding-bottom: 0px;
+    }
+    .profile-start{
+      gap: 19px;
+    }
+    .profile-end button img:nth-child(2) {
+      margin-left: 13.5px;
+    }
+
+    .profile-end button{
+      padding: 7px 8px 7px 14.5px;
+    }
     .one{
       padding: 0 80px;
+      margin-top: 22px;
+
+      max-height: 99px;
+    }
+    .scroll{
+      padding-top: 12px;
+      margin-top: 16px;
+      max-height: 100%;
     }
     main{
       padding: 0 80px;
@@ -2560,4 +2666,16 @@ p{
         margin: auto;
        }
        
+  }
+
+
+  @media screen and (min-width:2560px) {
+    body{
+      max-width: 2520px;
+      margin: auto;
+    }
+    /* .scroll{
+      max-width: 2360px;
+      width: 100%;
+    } */
   }
