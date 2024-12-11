@@ -2300,6 +2300,22 @@ p{
     .menu9{
       padding-bottom: 47.5px;
     }
+
+    .menu3 .hosting-item li:nth-child(4){
+      padding-bottom: 0px;
+    }
+
+    .privacy-list {
+      padding-bottom: 20px;
+    }
+
+    .non-social span:nth-child(2){
+      margin-top: -1px;
+    }
+
+    .non-social1 span{
+      margin-top: -1px;
+    }
   }
   
   @media screen and (min-width:950px) {
@@ -2413,6 +2429,10 @@ p{
     }
     .one{
       margin-top: 22px;
+      border: 1.5px solid rgba(0, 0, 0, 0.09);
+      border-bottom: none;
+      border-right: none;
+      border-left: none;
     }
     .airbnb-logo img{
       height: 33px;
@@ -2421,6 +2441,57 @@ p{
     .airbnb-logo{
       padding-top: 1px;
     }
+
+    .scroll-menu {
+      border-bottom: none;
+    }
+
+    .list{
+      padding-left: 0px;
+      margin-left: 40px;
+      padding-right: 0px;
+      margin-right: 40px;
+      padding-bottom: 48px;
+      border-bottom: none;
+    }
+
+    .heading1 h2{
+      margin-bottom: 9px;
+    }
+
+    
+    .grey{
+      margin-top: -2px;
+    }
+
+    .list-item:nth-child(n+3){
+      margin-top: -.5px;
+    }
+
+    .menu3{
+      border-top: 1px solid #DDDDDD;
+    }
+
+    .support, .hosting, .air{
+      padding-top: 48px;
+      padding-bottom: 48px;
+    }
+
+    .menu3 .support li:nth-child(1){
+      margin-top: -1px;
+    }
+
+    .menu3 .support li:nth-child(3){
+      margin-top: -1px;
+      padding-top: 2px;
+    }
+    .support h3 {
+      margin-bottom: 12px;
+    }
+    .hosting h3{
+      margin-bottom: 12.5px;
+    }
+    
   }
 
   @media screen and (min-width:1128px) {
@@ -2622,9 +2693,110 @@ p{
       padding-right: 0px;
     }
     footer{
-      padding: 0 80px;
-      padding-top: 40px;
+      /* padding: 0 80px; */
+      padding: 48px 0px 0px 0px;
     }
+    .heading1, .menu{
+      padding-left: 80px;
+      padding-right: 80px;
+    }
+    .menu10{
+      margin-left: 80px;
+      margin-right: 80px;
+    }
+    .scroll-menu > div p{
+      margin-bottom: 13.5px;
+    }
+    .menu10 .list{
+      margin-left: 0px;
+      margin-right: 0px;
+    }
+
+    .grey{
+      margin-top: -1px;
+    }
+    .list-item:nth-child(n+3) {
+      margin-top: 0px;
+    }
+
+    .list-item:nth-child(n+7) {
+      margin-top: -1.5px;
+    }
+
+    .list-item:nth-child(13)  .grey{
+      margin-top: 0px;
+    }
+
+    .list-item:nth-child(14)  .grey{
+      margin-top: 0px;
+    }
+
+    .list-item:nth-child(15)  .grey{
+      margin-top: 0px;
+    }
+
+    .list-item:nth-child(16)  .grey{
+      margin-top: 0px;
+    }
+
+    .list-item:nth-child(17)  .grey{
+      margin-top: 0px;
+    }
+
+    .menu10 .down{
+      padding-left: 1px;
+    }
+    .menu3{
+      padding-left: 80px;
+      padding-right: 80px;
+    }
+
+    .support h3{
+      margin-bottom: 12.5px ;
+    }
+
+    .hosting h3{
+      margin-bottom: 13px;
+    }
+
+    .air h3{
+      margin-bottom: 12.5px;
+    }
+
+    .menu10 ul{
+      padding-bottom: 47px;
+    }
+
+    .air, .hosting, .support{
+      border-bottom: none;
+    }
+
+    .menu12 {
+      margin-right: 80px;
+      margin-left: 80px;
+      padding-bottom: 20.5px;
+      padding-top: 20px;
+    }
+    .copy{
+      margin-top: 2px;
+      margin-right: 0px;
+    }
+    .privacy{
+      margin-top: 1px;
+      margin-left: 3.5px;
+    }
+
+    .menu6{
+      margin-top: 1px;
+      margin-right: -15px;
+      line-height: 20.02px;
+
+    }
+
+    /* .social span img{
+      height: 17.5px;
+      width: 17.5px;
+    } */
    }
   @media screen and (min-width:1640px) {
     .picture, .picture2{
@@ -2678,4 +2850,14 @@ p{
       max-width: 2360px;
       width: 100%;
     } */
+
+    .heading1, .menu, .menu3{
+      padding-left: 0px;
+      padding-right: 0px;
+    }
+
+    .menu10, .menu12{
+      margin-left: 0px;
+      margin-right: 0px;
+    }
   }
