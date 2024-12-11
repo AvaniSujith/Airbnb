@@ -17,6 +17,10 @@ body{
   width:100%;
 
  }
+
+ .first-dot{
+  display: none;
+ }
  /* **************.mobile-header{
   display:flex;
   flex-direction: row;
@@ -2793,6 +2797,10 @@ p{
 
     }
 
+    .first-dot{
+      display: inline-flex;
+    }
+
     /* .social span img{
       height: 17.5px;
       width: 17.5px;
@@ -2860,4 +2868,5 @@ p{
       margin-left: 0px;
       margin-right: 0px;
     }
+    
   }
